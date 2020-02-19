@@ -1,0 +1,10 @@
+<kendo-grid
+  [data]="gridData">
+  <ng-container *ngFor="let item of gridColumns" >
+    <kendo-grid-column
+      [field]="item.field"
+      [title]="item.title"
+    >
+    </kendo-grid-column>
+  </ng-container>
+</kendo-grid>

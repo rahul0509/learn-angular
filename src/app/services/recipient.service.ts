@@ -14,7 +14,7 @@ export class RecipientService {
 
   constructor( private http: HttpClient) { }
 
-  getRecipientGrid(): Observable<Recipient[]> {
-    return this.http.get<Recipient[]>(this.BASEURL);
-  }
+  // getRecipientGrid(): Observable<Recipient[]> {
+  //   return this.http.get<Recipient[]>(this.BASEURL);
+  // }
 }
